@@ -1,0 +1,23 @@
+# ========== Common for Frontend + Backend ==========
+node_modules/
+*.log
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ========== Build output ==========
+build/
+dist/
+coverage/
+*.cache
+
+# ========== Editor configs ==========
+.vscode/
+.idea/
+
+# ========== OS Files ==========
+.DS_Store
+Thumbs.db
